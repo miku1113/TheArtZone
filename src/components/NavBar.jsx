@@ -59,9 +59,6 @@ const NavBar = ({ setSelectedTab, selectedTab }) => {
             <a href="#" className={`nav-link ${selectedTab === "AboutUs" && "active"} navmj`} onClick={() => handleNavItemClick("AboutUs")}><MdOutlineContactSupport />AboutUs</a>
             <a href="#" className={`nav-link ${selectedTab === "ContactUs" && "active"} navmj`} onClick={() => handleNavItemClick("ContactUs")}><MdConnectWithoutContact />ContactUs</a>
           </Nav>
-          <div className="ml-0">
-            <button className="MjsubscribeBtn-outline py-2 btn-lg px-3"><FaWhatsapp />CHAT NOW</button>
-          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
