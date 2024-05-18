@@ -1,0 +1,22 @@
+.floating-button {
+    position: fixed;
+    left: 20px; /* Adjust as needed */
+    bottom: 20px; /* Adjust as needed */
+    background-color: #25d366; /* WhatsApp green color */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999; /* Ensure the button is above other elements */
+  }
+  
+  .whatsapp-icon {
+    width: 40px;
+    height: 40px;
+    fill: white;
+  }
+  

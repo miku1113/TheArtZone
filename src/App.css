@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./assets/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services_container{
+    padding: 110px 0;
+    background-color: white;
+}

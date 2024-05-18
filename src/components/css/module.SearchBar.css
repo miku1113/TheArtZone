@@ -1,0 +1,66 @@
+.icons{
+  margin-right: 4px;
+  color: #343a40;
+}
+
+.search-bar {
+  position: relative;
+  width: 400px;
+}
+
+.search-input {
+  background-color: transparent; /* Set background color to transparent */
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #ccc; /* Add a bottom border */
+  padding-right: 30px; /* Adjust padding to accommodate icon */
+  width: 400px; /* Adjust width as needed */
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+/* Change the bottom border color when input is focused */
+.search-input:hover {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-color: black; /* Change the bottom border color */
+}
+
+.search-input:focus {
+  border-bottom-color: black; /* Change the bottom border color */
+}
+
+/* Hide focus outline when input is clicked */
+.search-input:focus-visible {
+  outline: none;
+}
+.social-icons,
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .call {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .search-bar {
+      margin-top: 10px; /* Add some margin at the top */
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 740px) {
+  .search-input{
+    width: 360px;
+  }
+}
