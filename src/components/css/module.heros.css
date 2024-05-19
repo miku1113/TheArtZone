@@ -4,3 +4,25 @@
         width: 100% !important;
     }
 }
+
+/* module.heros.css */
+@keyframes popUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px) rotate(-10deg);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(-10px) rotate(5deg);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) rotate(0);
+    }
+  }
+  
+  .pop-up {
+    opacity: 0; /* Initial state */
+    animation: popUp 1.5s ease-out forwards; /* Animation properties */
+  }
+  

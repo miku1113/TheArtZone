@@ -61,10 +61,31 @@
   .toggle-clicked {
     background-color: white;
   }
-  .navmj{
+  .navmj {
+    position: relative;
+    display: inline-block;
     padding: 10px;
+    color: black;
+    text-decoration: none;
   }
-  
+
+  .navmj::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(220, 53, 69);
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+  }
+
+  .navmj:hover::after {
+    transform: scaleX(1);
+  }
+
   .nav-link:last-child {
     border-right: none; /* Remove border from the last nav link */
   }
