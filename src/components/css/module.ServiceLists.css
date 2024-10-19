@@ -1,0 +1,29 @@
+.art-img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+/* module.ServiceLists.css */
+.service-card {
+    cursor: pointer;
+    background-color: white; /* Set default background color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for scaling and box-shadow */
+  }
+  
+  .service-card:hover {
+    transform: scale(1.1); /* Enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  .service-card .description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Smooth transition for expanding description */
+  }
+  
+  .service-card:hover .description {
+    max-height: 100px; /* Set the maximum height to show full description */
+  }
+  
+   

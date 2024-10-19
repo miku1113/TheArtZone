@@ -1,0 +1,48 @@
+.Mjli{
+    color: #343a40 ;
+}
+
+.Mjli:hover{
+    color: rgb(220 53 69) !important;
+}
+
+.Mjcontainer{
+    background-color: #F1E3FC !important;
+    padding: 50px;
+}
+
+.MjsubscribeBtn{
+    background-color: rgb(220 53 69);
+    border-radius: 20px;
+    border: solid rgb(220 53 69) 1px;
+    color: white;
+}
+
+.MjsubscribeBtn:hover{
+    border: solid rgb(220 53 69) 1px;
+    color: rgb(220 53 69);
+    background-color: transparent;
+}
+
+.MjsubscribeBtn-outline{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    border: solid rgb(220 53 69) 1px;
+    color: rgb(220 53 69);
+    transition: 0.3s;
+}
+
+.MjsubscribeBtn-outline:hover{
+    background-color: rgb(220 53 69);
+    color: white;
+}
+
+/* YourStylesheet.css */
+.whatsapp-icon {
+    fill:#343a40;
+    transition: fill 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .whatsapp-icon:hover {
+    fill: rgb(220 53 69); /* Change the fill color on hover */
+  }

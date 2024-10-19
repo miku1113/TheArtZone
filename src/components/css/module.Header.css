@@ -1,0 +1,11 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* Add more styles as needed */
+  }
+  
+  .header-z-index{
+    z-index: 4;
+  }

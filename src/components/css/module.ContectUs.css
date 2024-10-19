@@ -1,0 +1,18 @@
+.contectus_container{
+    padding: 110px 0px;
+    padding-top: 140px;
+background-color: white;
+
+}
+
+.location_container{
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .contectus_container{
+        padding: 150px 0px;
+    
+    }
+  }
+
